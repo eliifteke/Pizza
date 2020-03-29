@@ -1,0 +1,51 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>admin.png</file>
+    <file>order.png</file>
+    <file>piza.jpg</file>
+    <file>p.ico</file>
+    <file>adres.ico</file>
+    <file>pizza.jpg</file>
+    <file>siparis.png</file>
+    <file>pizza.jpg</file>
+    <file>sprite.png</file>
+    <file>meyvesuyu.png</file>
+    <file>fanta.png</file>
+    <file>cola.png</file>
+    <file>meyvesuyu.png</file>
+    <file>fanta.png</file>
+    <file>cola.png</file>
+    <file>patates.png</file>
+    <file>hamburger.png</file>
+    <file>cart.ico</file>
+    <file>more.ico</file>
+    <file>tavuklu.jpg</file>
+    <file>sebzeli.jpeg</file>
+    <file>sucuklu.png</file>
+    <file>sebzeli.jpeg</file>
+    <file>margarita.png</file>
+    <file>karısık.png</file>
+    <file>sebzeli.png</file>
+    <file>piza.png</file>
+    <file>pickup.png</file>
+    <file>delivery.jpg</file>
+    <file>gelal.ico</file>
+    <file>siparis.ico</file>
+    <file>pizzaaa.jpg</file>
+    <file>pizzaa.png</file>
+    <file>pizzaa.png</file>
+    <file>pizzaa.png</file>
+    <file>sale.jpg</file>
+    <file>indirim.png</file>
+    <file>pizza.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>pizzaa.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>pizza.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>p.ico</file>
+  </qresource>
+</RCC>

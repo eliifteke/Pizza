@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about</class>
+ <widget class="QWidget" name="about">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>697</width>
+    <height>363</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#about{
+border-image: url(:/newPrefix/pizza.jpg);
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>291</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton{
+font: 20pt &quot;Ink Free&quot;;
+border-radius: 30px;
+background: rgb(170, 170, 255);
+}
+
+
+.QPushButton:hover
+{
+ 
+	background-color: rgb(100, 100, 255);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ABOUT</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resim/Yeni Metin Belgesi.qrc">
+     <normaloff>:/newPrefix/order.png</normaloff>:/newPrefix/order.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>611</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:30px; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:30px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Hind Vadodara,sans-serif'; font-size:14pt; color:#505061; background-color:#ffffff;&quot;&gt;1996 yılında Türkiyede ilk şubesini Istanbul, Ulus'ta açan Come To Pizza's Türkiye olarak şu an, İstanbul, İzmir, Ankara ve Bursa başta olmak üzere 69 ile yayılmış 530 şubemiz ile Türkiye pizza endüstrisine öncülük ediyoruz. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>10</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>8514oem</family>
+     <pointsize>17</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton
+{
+background: rgb(170,170, 255);
+
+font: 17pt &quot;8514oem&quot;;
+border-radius: 10px;
+}
+
+.QPushButton:hover
+{
+ 	background-color: rgb(100, 150, 255);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resim/Yeni Metin Belgesi.qrc"/>
+ </resources>
+ <connections/>
+</ui>

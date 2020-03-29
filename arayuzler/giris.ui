@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>giris</class>
+ <widget class="QWidget" name="giris">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#giris{ 
+background-image: url(:/newPrefix/pizza.jpg)
+}
+
+</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>190</y>
+     <width>701</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton{
+font: 30pt &quot;Ink Free&quot;;
+border-radius: 30px;
+background: rgb(170, 170, 255);
+}
+
+
+.QPushButton:hover
+{
+ 
+	background-color: rgb(100, 100, 255);
+}
+</string>
+   </property>
+   <property name="text">
+    <string> Click Here and Come To Pizza</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resim/Yeni Metin Belgesi.qrc"/>
+  <include location="resim/Yeni Metin Belgesi.qrc"/>
+ </resources>
+ <connections/>
+</ui>

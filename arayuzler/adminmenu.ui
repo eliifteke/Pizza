@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminmenu</class>
+ <widget class="QWidget" name="adminmenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>752</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#adminmenu{
+border-image: url(:/newPrefix/piza.jpg);
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>260</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton{
+font: 20pt &quot;Ink Free&quot;;
+border-radius: 30px;
+background: rgb(170, 170, 255);
+}
+
+
+.QPushButton:hover
+{
+ 
+	background-color: rgb(100, 100, 255);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ADMINS</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resim/Yeni Metin Belgesi.qrc">
+     <normaloff>:/newPrefix/admin.png</normaloff>:/newPrefix/admin.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string>5</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resim/Yeni Metin Belgesi.qrc"/>
+ </resources>
+ <connections/>
+</ui>
